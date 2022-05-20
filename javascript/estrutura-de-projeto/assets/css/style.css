@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#decrementa {
+    border: solid 1px cyan;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+#decrementa:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#incrementa {
+    border: solid 1px cyan;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+#incrementa:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#numero {
+    font-size: 25px;
+    font-weight: bold;
+    margin-inline: 10px;
+}
